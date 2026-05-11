@@ -13,7 +13,7 @@ const formatDate = (d) => new Date(d).toLocaleDateString("en-IN", { day: "2-digi
 
 const randomBetween = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const CATEGORIES = ["Food", "Transport", "Shopping", "Utilities", "Health", "Entertainment", "Education", "Rent"];
+const CATEGORIES = ["Food", "Transport", "Shopping", "Utilities", "Health", "Entertainment", "Education", "Rent", "Income"];
 const CAT_COLORS = {
   Food: "#f97316", Transport: "#3b82f6", Shopping: "#a855f7",
   Utilities: "#10b981", Health: "#ef4444", Entertainment: "#f59e0b",
